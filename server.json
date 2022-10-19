@@ -15,6 +15,22 @@
       "category": "Alimentação",
       "price": 54,
       "createdAt": "2022-10-18T15:28:14.239Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2022-10-19T13:11:05.530Z",
+      "id": 3
+    },
+    {
+      "description": "Macbook",
+      "price": 11000,
+      "category": "Tecnologia",
+      "type": "outcome",
+      "createdAt": "2022-10-19T13:24:31.216Z",
+      "id": 4
     }
   ]
 }
