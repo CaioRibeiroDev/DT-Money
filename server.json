@@ -31,6 +31,14 @@
       "type": "outcome",
       "createdAt": "2022-10-19T13:24:31.216Z",
       "id": 4
+    },
+    {
+      "description": "Remedio",
+      "price": 40,
+      "category": "Saude",
+      "type": "outcome",
+      "createdAt": "2022-10-19T17:55:31.303Z",
+      "id": 5
     }
   ]
 }
