@@ -39,6 +39,14 @@
       "type": "outcome",
       "createdAt": "2022-10-19T17:55:31.303Z",
       "id": 5
+    },
+    {
+      "description": "Bom dia",
+      "price": 90,
+      "category": "Caixa",
+      "type": "income",
+      "createdAt": "2023-06-21T13:57:36.033Z",
+      "id": 6
     }
   ]
 }

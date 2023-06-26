@@ -11,10 +11,15 @@ export const SummaryContainer = styled.section`
   gap: 2rem;
 
   margin-top: -5rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 interface SummaryCardProps {
   variant?: 'green'
+  visibility: 'show' | 'hide'
 }
 
 export const SummaryCard = styled.div<SummaryCardProps>`
@@ -39,5 +44,17 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     props.variant === 'green' &&
     css`
       background: ${props.theme['green-700']};
+    `}
+
+  ${(props) =>
+    props.visibility === 'show' &&
+    css`
+      display: block;
+    `}
+  
+    ${(props) =>
+    props.visibility === 'hide' &&
+    css`
+      display: none;
     `}
 `
